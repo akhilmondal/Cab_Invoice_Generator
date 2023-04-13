@@ -6,4 +6,8 @@ public class CabInvoiceGenerator {
 
         System.out.println("Welcome to Cab Invoice Generator: ");
     }
+
+    public double calculateFare(double distance, int time) {
+
+    }
 }
