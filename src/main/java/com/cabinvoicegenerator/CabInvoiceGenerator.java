@@ -1,6 +1,7 @@
 package com.cabinvoicegenerator;
 
 public class CabInvoiceGenerator {
+
     static final double COST_PER_KM = 10;
     static final double COST_PER_MIN = 1;
 
