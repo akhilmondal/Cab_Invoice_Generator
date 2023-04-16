@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="319dc9fe-d0d4-4408-acd3-2a525db8c12f" name="Changes" comment="" />
+    <list default="true" id="319dc9fe-d0d4-4408-acd3-2a525db8c12f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cabinvoicegenerator/CabInvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cabinvoicegenerator/CabInvoiceGeneratorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,14 +26,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2OQ4PiJixoHZ6vNzuQ9Cz3IRAgh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CabInvoiceGenerator">
+  <component name="RunManager" selected="JUnit.CabInvoiceGeneratorTest.givenMultipleRidesShouldReturnAggregateFare">
     <configuration name="CabInvoiceGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cabinvoicegenerator.CabInvoiceGenerator" />
       <module name="Cab_Invoice_Generator" />
@@ -51,6 +50,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CabInvoiceGeneratorTest.givenMultipleRidesShouldReturnAggregateFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cab_Invoice_Generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cabinvoicegenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cabinvoicegenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.cabinvoicegenerator.CabInvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="givenMultipleRidesShouldReturnAggregateFare" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CabInvoiceGeneratorTest.givenMultipleRidesShouldReturnAggregateFare" />
         <item itemvalue="Application.CabInvoiceGenerator" />
         <item itemvalue="JUnit.CabInvoiceGeneratorTest.testCabInvoiceGenerator" />
       </list>
